@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Contacts
+comment0.text=\r\n\ A\ class\ that\ represents\ a\ contact\ with\ a\ full\ name,\ an\ age,\ a\ phone\ number\ and\ an\ email.\r\n\ @author\ Alan\ Ochoa\r\n\ @version\ 03/02/2020\r\n
+comment1.params=name\ age\ phone
+comment1.target=Contacts(java.lang.String,\ int,\ long)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Contacts\r\n\ @param\ phone\ the\ contact's\ phone\ number\r\n\ @param\ fullName\ full\ name\ of\ the\ contact\r\n\ @param\ ageFromBirth\ the\ person's\ age\r\n\ (Precondition\:\ fullName\ must\ have\ a\ last\ name\ with\ a\ space\ between\ it\ and\ the\ first\ name)\r\n\ (Precondition\:\ ageFromBirth\ >\=\ 0)\r\n\ (Precondition\:\ newNum\ >\=\ 1000000000)\r\n\ (Precondition\:\ newEmail\ must\ contain\ an\ @)\r\n
+comment2.params=
+comment2.target=long\ getPhoneNumber()
+comment2.text=\r\n\ A\ method\ to\ get\ the\ contact's\ phone\ number\r\n\ @return\ contact's\ phone\ number\r\n
+comment3.params=
+comment3.target=java.lang.String\ getEmail()
+comment3.text=\r\n\ A\ method\ to\ get\ the\ contact's\ email\r\n\ @return\ contact's\ email\r\n
+comment4.params=newNum
+comment4.target=void\ setPhoneNumber(long)
+comment4.text=\r\n\ A\ method\ that\ sets\ a\ new\ phone\ number\r\n\ @param\ newNum\ the\ new\ phone\ number\r\n\ (Precondition\:\ newNum\ >\=\ 1000000000)\r\n\ (Postcondition\:\ getPhoneNumber())\r\n
+comment5.params=newEmail
+comment5.target=void\ setEmail(java.lang.String)
+comment5.text=\r\n\ A\ method\ that\ changes\ the\ email\r\n\ @param\ newEmail\ the\ new\ email\r\n\ (Precondition\:\ newEmail\ must\ contain\ an\ @)\r\n\ (Postcondition\:\ getEmail())\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ An\ override\ to\ the\ toString\ method\ from\ the\ object\ class\r\n\ @return\ person's\ name\ +\ "\:age\ "\ +\ person's\ age\ +\ "\ Email\:\ "\ +\ email\ +\ "\ Phone\ Number\:\ "\ +\ phoneNum;\r\n
+numComments=7
