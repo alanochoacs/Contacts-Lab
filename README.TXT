@@ -4,9 +4,7 @@ Tell the reader (someone who does not know anything about this project)
 all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Contacts Lab
+PURPOSE OF PROJECT: A class that represents a contact with a full name, an age, a phone number and an email.
+VERSION or DATE: 03/02/2020
+AUTHORS: Alan Ochoa
